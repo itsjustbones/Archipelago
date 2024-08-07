@@ -2010,7 +2010,7 @@ def get_locations(world: Optional['SC2World']) -> Tuple[LocationData, ...]:
         make_location_data(SC2Mission.THE_ESSENCE_OF_ETERNITY.mission_name, "Victory", SC2LOTV_LOC_ID_OFFSET + 2400, LocationType.VICTORY,
             logic.essence_of_eternity_requirement
         ),
-        make_location_data(SC2Mission.THE_ESSENCE_OF_ETERNITY.mission_name, "Void Trashers", SC2LOTV_LOC_ID_OFFSET + 2401, LocationType.EXTRA),
+        make_location_data(SC2Mission.THE_ESSENCE_OF_ETERNITY.mission_name, "Void Thrashers", SC2LOTV_LOC_ID_OFFSET + 2401, LocationType.EXTRA),
         make_location_data(SC2Mission.AMON_S_FALL.mission_name, "Victory", SC2LOTV_LOC_ID_OFFSET + 2500, LocationType.VICTORY,
             logic.amons_fall_requirement
         ),
